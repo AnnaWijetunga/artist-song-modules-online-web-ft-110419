@@ -4,9 +4,9 @@ class Song
   attr_accessor :name
   attr_reader :artist
 
-  extend Memorable
-  # extend reset_all
-  # extend count
+  # extend Memorable
+  extend reset_all
+  extend count
   
   @@songs = []
 
