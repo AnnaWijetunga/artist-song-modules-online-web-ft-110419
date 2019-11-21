@@ -5,7 +5,7 @@ class Artist
   attr_reader :songs
   
   extend reset_all
-  extend 
+  extend count
 
   @@artists = []
 
